@@ -1,0 +1,129 @@
+
+
+* {
+    -webkit-boxsizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 960px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+
+}
+
+.row {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/************************************/
+
+}
+
+.container {
+    width: 1000px;
+
+}
+
+.featuredwork {
+    padding-left: 4%;
+}
+
+.text-muted {
+    color: #808080;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.header {
+    display: inline;
+}
+
+.logo {
+    padding-top: 5%;
+
+}
+
+.radius {
+    border-radius: 5px;
+}
+
+.name {
+    font-size: 3em;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    padding-top: 5%;
+
+
+}
+
+.title {
+    font-size: 1em;
+
+}
+
+
+.design {
+    border-radius: 30px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .thumbs {
+        padding-right: 3px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .featuredwork {
+        font-size: 1.5em;
+
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .info {
+        margin: auto;
+    }
+
+    .logo {
+        padding-left: 28%;
+    }
+    .featuredwork {
+        font-size: 1.5em;
+
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .logo {
+        padding-left: 25%;
+    }
+
+    .info {
+        margin: auto;
+    }
+    .featuredwork {
+        font-size: 1em;
+
+    }
+
+}
+
